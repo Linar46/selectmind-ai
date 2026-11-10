@@ -193,7 +193,7 @@ export function GeneralSettings({
               onClick={() => updateMutation.mutate({ showFloatingToolbar: !settings.showFloatingToolbar })}
             >
               <span
-                className={`absolute top-0.5 h-4 w-4 rounded-full bg-white transition-transform ${settings.showFloatingToolbar ? 'translate-x-4' : 'translate-x-0.5'}`}
+                className={`absolute left-0.5 top-0.5 h-4 w-4 rounded-full bg-white transition-transform ${settings.showFloatingToolbar ? 'translate-x-4' : 'translate-x-0.5'}`}
               />
             </button>
           </label>
@@ -205,7 +205,7 @@ export function GeneralSettings({
               onClick={() => updateMutation.mutate({ enableStreaming: !settings.enableStreaming })}
             >
               <span
-                className={`absolute top-0.5 h-4 w-4 rounded-full bg-white transition-transform ${settings.enableStreaming ? 'translate-x-4' : 'translate-x-0.5'}`}
+                className={`absolute left-0.5 top-0.5 h-4 w-4 rounded-full bg-white transition-transform ${settings.enableStreaming ? 'translate-x-4' : 'translate-x-0.5'}`}
               />
             </button>
           </label>
@@ -219,7 +219,7 @@ export function GeneralSettings({
               }
             >
               <span
-                className={`absolute top-0.5 h-4 w-4 rounded-full bg-white transition-transform ${settings.saveConversationHistory ? 'translate-x-4' : 'translate-x-0.5'}`}
+                className={`absolute left-0.5 top-0.5 h-4 w-4 rounded-full bg-white transition-transform ${settings.saveConversationHistory ? 'translate-x-4' : 'translate-x-0.5'}`}
               />
             </button>
           </label>
